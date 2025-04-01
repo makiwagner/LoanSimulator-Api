@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A560992E-A9F2-4CC6-90DC-155066569792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.Api", "src\LoanSimulator.Api\LoanSimulator.Api.csproj", "{9DFB61AF-6BBE-4FB3-89B4-F743C1097FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.Application", "src\LoanSimulator.Application\LoanSimulator.Application.csproj", "{BF28A25C-13F7-43F0-A3BC-79BBE7B428C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.CrossCutting", "src\LoanSimulator.CrossCutting\LoanSimulator.CrossCutting.csproj", "{C4B3F188-11E0-4F2C-916B-1B54A399B5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.Domain", "src\LoanSimulator.Domain\LoanSimulator.Domain.csproj", "{312B39AA-0A56-4539-A843-5F75C46D5F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.Infrastructure", "src\LoanSimulator.Infrastructure\LoanSimulator.Infrastructure.csproj", "{1EF985A5-7254-4C19-834F-485057D307CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B7B5224B-20F9-42F1-ABA0-2F6001E4ECC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{93625E27-F151-42EC-A275-314E3D735A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanSimulator.UnitTests", "tests\UnitTests\LoanSimulator.UnitTests\LoanSimulator.UnitTests.csproj", "{CBABC40F-54C4-47AC-ABAF-024E8441DD5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DFB61AF-6BBE-4FB3-89B4-F743C1097FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFB61AF-6BBE-4FB3-89B4-F743C1097FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFB61AF-6BBE-4FB3-89B4-F743C1097FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFB61AF-6BBE-4FB3-89B4-F743C1097FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF28A25C-13F7-43F0-A3BC-79BBE7B428C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF28A25C-13F7-43F0-A3BC-79BBE7B428C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF28A25C-13F7-43F0-A3BC-79BBE7B428C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF28A25C-13F7-43F0-A3BC-79BBE7B428C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B3F188-11E0-4F2C-916B-1B54A399B5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B3F188-11E0-4F2C-916B-1B54A399B5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B3F188-11E0-4F2C-916B-1B54A399B5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B3F188-11E0-4F2C-916B-1B54A399B5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312B39AA-0A56-4539-A843-5F75C46D5F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312B39AA-0A56-4539-A843-5F75C46D5F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312B39AA-0A56-4539-A843-5F75C46D5F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312B39AA-0A56-4539-A843-5F75C46D5F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF985A5-7254-4C19-834F-485057D307CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF985A5-7254-4C19-834F-485057D307CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF985A5-7254-4C19-834F-485057D307CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF985A5-7254-4C19-834F-485057D307CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBABC40F-54C4-47AC-ABAF-024E8441DD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBABC40F-54C4-47AC-ABAF-024E8441DD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBABC40F-54C4-47AC-ABAF-024E8441DD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBABC40F-54C4-47AC-ABAF-024E8441DD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DFB61AF-6BBE-4FB3-89B4-F743C1097FE8} = {A560992E-A9F2-4CC6-90DC-155066569792}
+		{BF28A25C-13F7-43F0-A3BC-79BBE7B428C1} = {A560992E-A9F2-4CC6-90DC-155066569792}
+		{C4B3F188-11E0-4F2C-916B-1B54A399B5C8} = {A560992E-A9F2-4CC6-90DC-155066569792}
+		{312B39AA-0A56-4539-A843-5F75C46D5F40} = {A560992E-A9F2-4CC6-90DC-155066569792}
+		{1EF985A5-7254-4C19-834F-485057D307CC} = {A560992E-A9F2-4CC6-90DC-155066569792}
+		{93625E27-F151-42EC-A275-314E3D735A2B} = {B7B5224B-20F9-42F1-ABA0-2F6001E4ECC0}
+		{CBABC40F-54C4-47AC-ABAF-024E8441DD5F} = {93625E27-F151-42EC-A275-314E3D735A2B}
+	EndGlobalSection
+EndGlobal
